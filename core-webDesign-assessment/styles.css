@@ -7,7 +7,6 @@
 
 /* main div styles */
 .container {
-  border: 2px solid;
   margin: 100px auto;
   background-color: #9eeaea;
   width: 70%;
@@ -25,7 +24,6 @@
   background-color: #fff;
   margin: 10px 10px;
   padding: 10px 10px;
-  border: 2px solid;
 }
 
 .address p {
@@ -60,6 +58,8 @@
   /* justify-content: center; */
   /* border: 2px dashed; */
   padding: 10px;
+  margin: 20px;
+  justify-content: space-evenly;
 }
 
 .form {
@@ -73,17 +73,26 @@
   border: none;
   margin: 6px;
 }
-
-.map {
-  border: 3px dotted red;
-  padding: 10px;
-  width: 100%;
+.form textarea{
+  padding: 10px 12px;
+  border-radius: 5px;
+  border: none;
+  margin: 6px; 
 }
 
+.form .btn{
+background-color: rgb(250, 43, 43);
+color: #fff;
+}
+.map {
+  /* display: inline-block; */
+  width: 70%;
+}
 .media-icons i {
   font-size: 20px;
   padding: 10px;
   padding-right: 20px;
   padding-left: 0;
 }
+
 /* form n map section end */
